@@ -2,3 +2,9 @@ mei-meihead {
   color: #F00;
   display: block;
 }
+
+mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="composer"]::before {
+  font-weight: bold;
+  content: '\a'"Composer: ";
+  white-space: pre;
+}
